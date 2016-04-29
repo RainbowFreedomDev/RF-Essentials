@@ -22,10 +22,10 @@ public class EssentialsHandler
 
 	public static Plugin getTFM()
 	{
-		final Plugin tfm = Bukkit.getPluginManager().getPlugin("TotalFreedomMod");
+		final Plugin tfm = Bukkit.getPluginManager().getPlugin("RainbowFreedomMod");
 		if (tfm == null)
 		{
-			logger.warning("Could not resolve plugin: TotalFreedomMod");
+			logger.warning("Could not resolve plugin: RainbowFreedomMod");
 		}
 
 		return tfm;
